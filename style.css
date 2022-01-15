@@ -1,0 +1,20 @@
+body{
+    border: 20px aqua;
+
+}
+.menu{
+    display: flex;
+    
+    align-items:row;
+    justify-content: row;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.second img{
+    border-radius: 10px;
+}
