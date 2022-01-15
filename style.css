@@ -1,5 +1,5 @@
 body{
-    border: 20px aqua;
+    border-radius: 20px solid aqua;
 
 }
 .menu{
@@ -17,4 +17,14 @@ body{
 }
 .second img{
     border-radius: 10px;
+}
+.half-width{
+    align-items: column;
+    width: 100%;
+}
+.far fa-star filled{
+    background-color: burlywood;
+}
+.half-width{
+    align-items: grid;
 }
