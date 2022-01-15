@@ -2,11 +2,20 @@ body{
     border-radius: 20px solid aqua;
 
 }
-.menu{
+nav{
     display: flex;
-    
-    align-items:row;
-    justify-content: row;
+    justify-content: space-between;
+}
+.img{
+    display: grid;
+    grid-template-columns:repeat(6,25%)
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 15px;
 }
 .second{
     display: flex;
@@ -27,4 +36,17 @@ body{
 }
 .half-width{
     align-items: grid;
+}
+
+.footer{
+    background-color: black;
+    height: 200px;
+    width: 150px;
+}
+.img{
+    height: 324px;
+    width: 460px;
+    border-radius: 20px;
+    box-shadow: 10px 10px solid aqua;
+    flex-direction: row;
 }
